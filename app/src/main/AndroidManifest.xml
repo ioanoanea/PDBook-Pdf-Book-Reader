@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ioanoanea.pdbook">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:targetApi="q">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3650822610871452~1109312518" />
+
+        <activity android:name="com.ioanoanea.pdbook.activities.SplashScreen"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.ioanoanea.pdbook.activities.InfoActivity"
+            android:theme="@style/PopUpDarkerTheme" />
+        <activity
+            android:name="com.ioanoanea.pdbook.activities.SearchActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.ioanoanea.pdbook.activities.FontSizeActivity"
+            android:theme="@style/PopUpDarkerTheme" />
+        <activity
+            android:name="com.ioanoanea.pdbook.activities.BookmarksActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.ioanoanea.pdbook.activities.ChaptersActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.ioanoanea.pdbook.activities.BookOptionsActivity"
+            android:theme="@style/PopUpDarkerTheme" />
+        <activity
+            android:name="com.ioanoanea.pdbook.activities.PageOptionsActivity"
+            android:theme="@style/PopUpDarkerTheme" />
+        <activity
+            android:name="com.ioanoanea.pdbook.activities.AddBookActivity"
+            android:theme="@style/PopUpDarkerTheme" />
+        <activity
+            android:name="com.ioanoanea.pdbook.activities.Page"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.ioanoanea.pdbook.activities.HomeActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+
+    </application>
+
+</manifest>

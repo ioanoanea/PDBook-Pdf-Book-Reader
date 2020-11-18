@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF5722</color>
+    <color name="colorPrimaryDark">#0C0C0C</color>
+    <color name="colorPrimaryLight">#131313</color>
+    <color name="colorAccent">#4B4B4B</color>
+    <color name="colorTextPrimary">#D8D8D8</color>
+    <color name="colorTextSecondary">#919191</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="text_input_box">#4D4D4D</color>
+    <color name="text_hint_input_box">#A7A7A7</color>
+
+    <color name="translucent">#4F111111</color>
+
+    <color name="coverOne">#EF082B</color>
+    <color name="coverTwo">#C67A09</color>
+    <color name="coverThree">#fff</color>
+    <color name="coverFour">#0753C6</color>
+
+    <color name="titleOne">#fff</color>
+    <color name="titleTwo">#920929</color>
+
+    <color name="author">#070E36</color>
+
+    <!-- <color name="lightGrey">#E8E8E8</color> -->
+
+</resources>
